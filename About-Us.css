@@ -91,7 +91,7 @@
   letter-spacing: normal;
   text-transform: none;
   font-weight: 600;
-  margin: 17px 19px 0 auto;
+  margin: 17px 0 0 auto;
 }
 
 .u-section-2 .u-layout-cell-2 {
@@ -151,7 +151,6 @@
     --radius: 12px;
     border-style: solid;
     margin-top: 29px;
-    margin-right: 0;
     padding: 10px 20px 10px 19px;
   }
 
