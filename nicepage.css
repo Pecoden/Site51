@@ -44267,6 +44267,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1rem;
   letter-spacing: 0px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-weight: 400;
 }
 
 .u-header .u-image-1 {
@@ -44384,6 +44386,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: 8px;
+  }
+
+  .u-header .u-nav-2 {
+    font-weight: 700;
+    width: 172px;
+    margin: 20px 20px 0 auto;
   }
 
   .u-header .u-image-1 {

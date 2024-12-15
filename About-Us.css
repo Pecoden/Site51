@@ -44,8 +44,20 @@
   .u-section-1 .u-text-1 {
     font-size: 1rem;
   }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-group-elements-1 {
+    width: 164px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    width: auto;
+    margin-top: 10px;
+  }
 }.u-section-2 .u-sheet-1 {
-  min-height: 961px;
+  min-height: 1651px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
@@ -62,36 +74,61 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-weight: 700;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  font-weight: 700;
   margin: 0 0 0 2px;
 }
 
 .u-section-2 .u-text-2 {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.6;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 18px 0 0 2px;
+  margin: 16px 1px 0;
+}
+
+.u-section-2 .u-text-3 {
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 18px 1px 0;
+}
+
+.u-section-2 .u-text-4 {
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  font-weight: 700;
+  margin: 20px 1px 0;
+}
+
+.u-section-2 .u-text-5 {
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 20px 1px 0;
 }
 
 .u-section-2 .u-btn-1 {
   font-size: 1.25rem;
   transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
   --radius: 50px;
   letter-spacing: normal;
   text-transform: none;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
   font-weight: 600;
-  margin: 17px 0 0 auto;
+  margin: 20px 0 0 auto;
 }
 
 .u-section-2 .u-layout-cell-2 {
@@ -118,25 +155,34 @@
   margin: 30px auto 0;
 }
 
-.u-section-2 .u-text-3 {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.6;
+.u-section-2 .u-text-6 {
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+
+.u-section-2 .u-text-7 {
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 29px 0 60px;
+  margin: 20px 0 0;
+}
+
+.u-section-2 .u-image-2 {
+  height: 568px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  --radius: 50px;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 786px;
+    min-height: 1468px;
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 521px;
+    min-height: 451px;
   }
 
   .u-section-2 .u-text-1 {
@@ -144,7 +190,23 @@
   }
 
   .u-section-2 .u-text-2 {
+    margin-right: 0;
     margin-left: 0;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-5 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-2 .u-btn-1 {
@@ -171,7 +233,7 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 679px;
+    min-height: 1362px;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -192,11 +254,7 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 954px;
-  }
-
-  .u-section-2 .u-text-2 {
-    font-size: 1.125rem;
+    min-height: 1635px;
   }
 
   .u-section-2 .u-layout-cell-2 {
@@ -214,15 +272,11 @@
     margin-right: initial;
     margin-left: initial;
   }
-
-  .u-section-2 .u-text-3 {
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 760px;
+    min-height: 2136px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -238,6 +292,10 @@
     width: auto;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 211px;
   }
 }
 
